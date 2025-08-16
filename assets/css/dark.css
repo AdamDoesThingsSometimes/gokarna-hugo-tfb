@@ -6,7 +6,6 @@
 }
 
 html {
-  background-color: rgb(var(--dark-primary-color));
   color: var(--dark-text-color);
   fill: var(--dark-text-color);
 }
@@ -53,6 +52,8 @@ a:hover .feather-moon {
 
 .footer {
   border-top-color: var(--dark-header-bg-color);
+    background-color: rgba(var(--dark-primary-color), 0.95);
+
 }
 
 blockquote {
@@ -89,6 +90,10 @@ pre {
 
 .arrow-logo {
   background-color: var(--dark-secondary-color);
+}
+
+main#content{
+  background-color: rgba(var(--dark-primary-color), 0.95);
 }
 
 /* TODO: Check if this is needed or not */

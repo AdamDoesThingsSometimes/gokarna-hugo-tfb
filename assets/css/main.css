@@ -21,7 +21,7 @@
 }
 
 html {
-  background-color: rgb(var(--light-primary-color));
+  background-color: #0095FF;
   color: var(--light-text-color);
   font-family: "Lato", sans-serif;
   font-size: var(--font-size);
@@ -52,6 +52,9 @@ a:hover {
 main#content {
   margin: 90px auto 0;
   width: var(--content-width);
+  padding: 15px;
+  background-color: rgb(var(--light-primary-color));
+  border: var(--accent-color) 10px double;
 }
 
 main#content > .container {
@@ -63,6 +66,7 @@ main#content > .container {
 .post.container {
   box-sizing: border-box;
   display: inline-block;
+
 }
 
 .post-toc {
@@ -76,7 +80,7 @@ main#content > .container {
 
 #toc {
   position: fixed;
-  top: 80px;
+  top: 95px;
   bottom: 20px;
   overflow-x: hidden;
   overflow-y: auto;
@@ -245,13 +249,13 @@ a:hover .feather-sun {
 .footer {
   bottom: 0;
   color: inherit;
-  left: 0;
-  margin-left: 30%;
+  left: 0;;
   overflow: hidden;
-  padding: 40px 0;
+  padding: 10px 0;
   position: absolute;
   text-align: center;
-  width: 40%;
+  width: 100%;
+  background-color: rgb(var(--light-primary-color));
 }
 
 .footer span {
@@ -448,6 +452,7 @@ table td {
   line-height: 1.25;
   width: 80%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .home-posts {
